@@ -1,0 +1,32 @@
+
+body{
+  background: linear-gradient(45deg, #bbaab5, #826ac4)
+
+}
+
+.sechidden{
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+
+}
+.clickme{
+  padding: 10 10 10 10;
+  border-radius: 5%;
+  border-color: #ffff;
+  height: 100px;
+  width: 100px;
+  cursor: pointer;
+  background-color: transparent;
+  height: 50px;
+  width:150px;
+
+}
+.colorprop{
+  text-align: center;
+  color: white;
+  font-family:Arial, Helvetica, sans-serif;
+}

@@ -1,0 +1,38 @@
+body{
+  display: flex;
+  justify-content:center ;
+  align-items: center;
+  flex-direction: column;
+  height: 500px;
+
+}
+.quote{
+  text-align: center;
+  height: 300px;
+  width: 500px;
+}
+#divid{
+  background:none;
+  border-style:dashed;
+  border-color: aliceblue;
+}
+
+h1{
+  font-family: 'Times New Roman', Times, serif;
+  color: #ffff;
+}
+h2{
+  font-family: cursive;
+  color: #ffff;
+
+}
+.clickme{
+  padding: 10 10 10 10;
+  border-radius: 5%;
+  border-color: #ffff;
+  height: 100px;
+  width: 100px;
+  cursor: pointer;
+  background-color: transparent;
+  height: 50px;
+  width:150px;}
