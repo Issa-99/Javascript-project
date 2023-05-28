@@ -1,0 +1,43 @@
+body{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.Imgcontenair{
+  width: 1000px; /* Set the container width to the desired size */
+  height: 1000px; /* Set the container height to the desired size */
+  background-image: url("/img/strawhatt_minimalist_festival_logo_with_a_tree_in_the_desert_317cf379-a0aa-48ea-9585-3e7322a37c2d.png");
+  background-size: cover;
+
+  display: flex;
+  flex-direction: row;
+  gap: 800px;
+  align-items: center;
+}
+.carousel{
+  width: 100%; /* Make the image fill the width of its container */
+  height: 100%; /* Make the image fill the height of its container */
+  object-fit:cover; /* Scale the image while preserving its aspect ratio */
+}
+.titre{
+  font-size: 100px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.direction{
+  height: 100px;
+  width: 100px;
+  background: none;
+  border:0cm;
+}
+.directionn{
+  max-width: 50%;
+  max-height: 50%;
+}
+
+
+.direction:hover{
+  background-color: gray;
+  opacity: 20%;
+  border:1cm;
+
+}
